@@ -1,8 +1,7 @@
-from django.shortcuts import render, redirect, get_object_or_404
-from django.http import HttpResponse
-from account.models import User
+from django.shortcuts import render, redirect
 from rasberrypy.models import *
 from django.contrib.auth.decorators import login_required
+from .forms import *
 # Create your views here.
 
 @login_required
@@ -22,4 +21,19 @@ def main(request):
         })
     else:
         return redirect("/account/login")
+
+@login_required
+def setConfigure(request):
+    user = User.objects.get(userId=request.session["userId"])
+    if request.method == "POST":
+        product = ProductionConfigure(request.POST)
+        product = product.save(commit=False)
+        product.id = user.productionKey
+        product.save()
+        return redirect("main")
+    else:
+        product = Product.objects.get(id=user.productionKey)
+        productionConfigure = ProductionConfigure(product)
+        return render("parent/productionConfigure",
+                      {"configure" : productionConfigure})
 

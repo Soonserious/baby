@@ -37,7 +37,7 @@ with open(BASE_DIR+"\\setup\\media_setting","r") as f:
 # See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'n9uqz(@wpvk2x640(&4zfm5^#9xpp6-8yh51amt8i=@dayg2#3' #설정파일로 바꾸기
+SECRET_KEY = dbSetupList[6]
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -49,6 +49,7 @@ MEDIA_ROOT = mediaSetupList[0]
 # Application definition
 STATIC_URL = "/static/"
 STATICFILES_DIRS = ("C:/Users/Administrator/Downloads/backyardHighConvertinglandingpage-bootstrap4/backyardHighConvertinglandingpage-bootstrap4/",)
+
 
 
 INSTALLED_APPS = [

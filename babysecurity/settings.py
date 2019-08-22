@@ -23,12 +23,12 @@ pymysql.install_as_MySQLdb()
 dbSetupList = []
 mediaSetupList =[]
 
-with open(BASE_DIR+"\\setup\\db_setting.txt","r") as f:
+with open(BASE_DIR+"/setup/db_setting.txt","r") as f:
     for line in f:
         dbSetupList.append(line.rstrip("\n"))
     f.close()
 
-with open(BASE_DIR+"\\setup\\media_setting","r") as f:
+with open(BASE_DIR+"/setup/media_setting","r") as f:
     for line in f:
         mediaSetupList.append(line.rstrip("\n"))
     f.close()
@@ -48,7 +48,7 @@ MEDIA_URL = "/media/"
 MEDIA_ROOT = mediaSetupList[0]
 # Application definition
 STATIC_URL = "/static/"
-STATICFILES_DIRS = ("C:/Users/Administrator/Downloads/backyardHighConvertinglandingpage-bootstrap4/backyardHighConvertinglandingpage-bootstrap4/",)
+STATICFILES_DIRS = (os.path.join(BASE_DIR,'static'),)
 
 
 

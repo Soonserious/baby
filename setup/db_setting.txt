@@ -1,0 +1,6 @@
+django.db.backends.mysql
+babySecurity
+subway
+dlqmdlwm0711!@#
+210.115.170.132
+13306

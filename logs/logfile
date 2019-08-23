@@ -4884,3 +4884,940 @@ django.db.utils.OperationalError: (2003, "Can't connect to MySQL server on '210.
 [22/Aug/2019 15:29:22] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Linux; Android 6.0.1; LG-F770S Build/MXB48T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/76.0.3809.111 Mobile Safari/537.36', 'HTTP_ACCEPT': 'image/webp,image/apng,image/*,*/*;q=0.8', 'HTTP_X_REQUESTED_WITH': 'com.example.administrator.myapplication', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7', 'HTTP_COOKIE': 'csrftoken=BSlu14NR1CanDOT6nEhwT5UQvWLNfXED5N4mHABowpDZo1RjIpXLQBzLM5z7kjkq'}[0m
 [22/Aug/2019 15:29:22] INFO [django.request:60] [35mGET /favicon.ico - 404[0m
 [22/Aug/2019 15:29:22] WARNING [django.request:228] Not Found: /favicon.ico
+[22/Aug/2019 16:43:35] INFO [django.request:60] [36mGET /account/login[0m
+[22/Aug/2019 16:43:35] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Linux; Android 6.0.1; LG-F770S Build/MXB48T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/76.0.3809.111 Mobile Safari/537.36', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_X_REQUESTED_WITH': 'com.example.administrator.myapplication', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7', 'HTTP_COOKIE': 'csrftoken=BSlu14NR1CanDOT6nEhwT5UQvWLNfXED5N4mHABowpDZo1RjIpXLQBzLM5z7kjkq'}[0m
+[22/Aug/2019 16:43:35] INFO [django.request:60] [36mGET /account/login - 200[0m
+[22/Aug/2019 16:53:43] INFO [django.request:60] [36mGET /account/signup[0m
+[22/Aug/2019 16:53:43] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 16:53:43] INFO [django.request:60] [36mGET /account/signup - 200[0m
+[22/Aug/2019 16:53:43] INFO [django.request:60] [36mGET /account/%7B%20static%20'css/css-index.css'%20%25%7D[0m
+[22/Aug/2019 16:53:43] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/css,*/*;q=0.1', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/signup', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr'}[0m
+[22/Aug/2019 16:53:43] INFO [django.request:60] [35mGET /account/%7B%20static%20'css/css-index.css'%20%25%7D - 404[0m
+[22/Aug/2019 16:53:43] WARNING [django.request:228] Not Found: /account/{ static 'css/css-index.css' %}
+[22/Aug/2019 16:53:51] INFO [django.request:60] [36mGET /account/login[0m
+[22/Aug/2019 16:53:51] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 16:53:51] INFO [django.request:60] [36mGET /account/login - 200[0m
+[22/Aug/2019 16:53:52] INFO [django.request:60] [36mGET /account/%7B%20static%20'css/css-index.css'%20%25%7D[0m
+[22/Aug/2019 16:53:52] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/css,*/*;q=0.1', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr'}[0m
+[22/Aug/2019 16:53:52] INFO [django.request:60] [35mGET /account/%7B%20static%20'css/css-index.css'%20%25%7D - 404[0m
+[22/Aug/2019 16:53:52] WARNING [django.request:228] Not Found: /account/{ static 'css/css-index.css' %}
+[22/Aug/2019 16:53:53] INFO [django.request:60] [36mGET /account/signup[0m
+[22/Aug/2019 16:53:53] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 16:53:53] INFO [django.request:60] [36mGET /account/signup - 200[0m
+[22/Aug/2019 16:53:53] INFO [django.request:60] [36mGET /account/%7B%20static%20'css/css-index.css'%20%25%7D[0m
+[22/Aug/2019 16:53:53] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/css,*/*;q=0.1', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/signup', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr'}[0m
+[22/Aug/2019 16:53:53] INFO [django.request:60] [35mGET /account/%7B%20static%20'css/css-index.css'%20%25%7D - 404[0m
+[22/Aug/2019 16:53:53] WARNING [django.request:228] Not Found: /account/{ static 'css/css-index.css' %}
+[22/Aug/2019 16:58:07] INFO [django.request:60] [36mGET /account/signup[0m
+[22/Aug/2019 16:58:07] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Linux; Android 6.0.1; LG-F770S Build/MXB48T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/76.0.3809.111 Mobile Safari/537.36', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_X_REQUESTED_WITH': 'com.example.administrator.myapplication', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7', 'HTTP_COOKIE': 'csrftoken=BSlu14NR1CanDOT6nEhwT5UQvWLNfXED5N4mHABowpDZo1RjIpXLQBzLM5z7kjkq'}[0m
+[22/Aug/2019 16:58:07] INFO [django.request:60] [36mGET /account/signup - 200[0m
+[22/Aug/2019 16:59:28] INFO [django.request:60] [36mGET /rasberrypy/createProduction[0m
+[22/Aug/2019 16:59:28] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 16:59:28] INFO [django.request:60] [36mGET /rasberrypy/createProduction - 200[0m
+[22/Aug/2019 16:59:34] INFO [django.request:60] [36mPOST /rasberrypy/createProduction[0m
+[22/Aug/2019 16:59:34] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/rasberrypy/createProduction', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 16:59:34] DEBUG [django.request:60] [36mb'csrfmiddlewaretoken=3tzq4QygFaKlZrWRGIyPAvnYgFtdk9OvkgcQwyhKruCE41C9eQkUtbZrir8dmmph&offerId=sktds92&authentication=ekscn0805'[0m
+[22/Aug/2019 16:59:35] INFO [django.request:60] [36mPOST /rasberrypy/createProduction - 200[0m
+[22/Aug/2019 16:59:35] DEBUG [django.request:60] [36m{'content-type': ('Content-Type', 'application/json')}[0m
+[22/Aug/2019 16:59:35] DEBUG [django.request:60] [36mb'{"status": 1, "authentication": "ekscn0805"}'[0m
+[22/Aug/2019 17:00:10] INFO [django.request:60] [36mPOST /account/signup[0m
+[22/Aug/2019 17:00:10] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_ORIGIN': 'http://52.231.77.117:8000', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Linux; Android 6.0.1; LG-F770S Build/MXB48T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/76.0.3809.111 Mobile Safari/537.36', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_X_REQUESTED_WITH': 'com.example.administrator.myapplication', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/signup', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7', 'HTTP_COOKIE': 'csrftoken=BSlu14NR1CanDOT6nEhwT5UQvWLNfXED5N4mHABowpDZo1RjIpXLQBzLM5z7kjkq'}[0m
+[22/Aug/2019 17:00:10] DEBUG [django.request:60] [36mb'csrfmiddlewaretoken=wgtUdmxEUCRHtBDL1tqg6FNpTpaWJozx0bcMTSlbppkjeOBYme6v3bskayYgOKfk&userId=sktds92&productionKey=1&password1=subway0805&password2=subway0805'[0m
+[22/Aug/2019 17:00:11] INFO [django.request:60] [36mPOST /account/signup - 302[0m
+[22/Aug/2019 17:00:11] INFO [django.request:60] [36mGET /account/account/login[0m
+[22/Aug/2019 17:00:11] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Linux; Android 6.0.1; LG-F770S Build/MXB48T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/76.0.3809.111 Mobile Safari/537.36', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_X_REQUESTED_WITH': 'com.example.administrator.myapplication', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7', 'HTTP_COOKIE': 'csrftoken=BSlu14NR1CanDOT6nEhwT5UQvWLNfXED5N4mHABowpDZo1RjIpXLQBzLM5z7kjkq'}[0m
+[22/Aug/2019 17:00:11] INFO [django.request:60] [36mGET /account/account/login - 200[0m
+[22/Aug/2019 17:00:11] INFO [django.request:60] [36mGET /account/account/%7B%20static%20'css/css-index.css'%20%25%7D[0m
+[22/Aug/2019 17:00:11] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Linux; Android 6.0.1; LG-F770S Build/MXB48T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/76.0.3809.111 Mobile Safari/537.36', 'HTTP_ACCEPT': 'text/css,*/*;q=0.1', 'HTTP_X_REQUESTED_WITH': 'com.example.administrator.myapplication', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/account/login', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7', 'HTTP_COOKIE': 'csrftoken=BSlu14NR1CanDOT6nEhwT5UQvWLNfXED5N4mHABowpDZo1RjIpXLQBzLM5z7kjkq'}[0m
+[22/Aug/2019 17:00:11] INFO [django.request:60] [35mGET /account/account/%7B%20static%20'css/css-index.css'%20%25%7D - 404[0m
+[22/Aug/2019 17:00:11] WARNING [django.request:228] Not Found: /account/account/{ static 'css/css-index.css' %}
+[22/Aug/2019 17:00:24] INFO [django.request:60] [36mPOST /account/account/login[0m
+[22/Aug/2019 17:00:24] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_ORIGIN': 'http://52.231.77.117:8000', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Linux; Android 6.0.1; LG-F770S Build/MXB48T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/76.0.3809.111 Mobile Safari/537.36', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_X_REQUESTED_WITH': 'com.example.administrator.myapplication', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/account/login', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7', 'HTTP_COOKIE': 'csrftoken=BSlu14NR1CanDOT6nEhwT5UQvWLNfXED5N4mHABowpDZo1RjIpXLQBzLM5z7kjkq'}[0m
+[22/Aug/2019 17:00:24] DEBUG [django.request:60] [36mb'csrfmiddlewaretoken=JLYWdlO7xY7RfkowkB3onlrGbwlTzSr4dGHOTRCE2LAt0xmJFmJDkR6BsF9dEe7R&username=sktds92&password=subway0805'[0m
+[22/Aug/2019 17:00:24] INFO [django.request:60] [36mPOST /account/account/login - 302[0m
+[22/Aug/2019 17:00:25] INFO [django.request:60] [36mGET /parent/main[0m
+[22/Aug/2019 17:00:25] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Linux; Android 6.0.1; LG-F770S Build/MXB48T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/76.0.3809.111 Mobile Safari/537.36', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_X_REQUESTED_WITH': 'com.example.administrator.myapplication', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7', 'HTTP_COOKIE': 'csrftoken=BSlu14NR1CanDOT6nEhwT5UQvWLNfXED5N4mHABowpDZo1RjIpXLQBzLM5z7kjkq; sessionid=yykfke83w6vc0qq82kkkujl82ayhp721'}[0m
+[22/Aug/2019 17:00:25] INFO [django.request:60] [36mGET /parent/main - 302[0m
+[22/Aug/2019 17:00:25] INFO [django.request:60] [36mGET /accounts/login/?next=/parent/main[0m
+[22/Aug/2019 17:00:25] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Linux; Android 6.0.1; LG-F770S Build/MXB48T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/76.0.3809.111 Mobile Safari/537.36', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_X_REQUESTED_WITH': 'com.example.administrator.myapplication', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7', 'HTTP_COOKIE': 'csrftoken=BSlu14NR1CanDOT6nEhwT5UQvWLNfXED5N4mHABowpDZo1RjIpXLQBzLM5z7kjkq; sessionid=yykfke83w6vc0qq82kkkujl82ayhp721'}[0m
+[22/Aug/2019 17:00:25] INFO [django.request:60] [35mGET /accounts/login/?next=/parent/main - 404[0m
+[22/Aug/2019 17:00:25] WARNING [django.request:228] Not Found: /accounts/login/
+[22/Aug/2019 17:04:26] INFO [django.request:60] [36mGET /account/login[0m
+[22/Aug/2019 17:04:26] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Linux; Android 6.0.1; LG-F770S Build/MXB48T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/76.0.3809.111 Mobile Safari/537.36', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_X_REQUESTED_WITH': 'com.example.administrator.myapplication', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7', 'HTTP_COOKIE': 'csrftoken=BSlu14NR1CanDOT6nEhwT5UQvWLNfXED5N4mHABowpDZo1RjIpXLQBzLM5z7kjkq; sessionid=yykfke83w6vc0qq82kkkujl82ayhp721'}[0m
+[22/Aug/2019 17:04:26] INFO [django.request:60] [35mGET /account/login - 404[0m
+[22/Aug/2019 17:04:26] WARNING [django.request:228] Not Found: /account/login
+[22/Aug/2019 17:05:13] INFO [django.request:60] [36mGET /accounts/login[0m
+[22/Aug/2019 17:05:13] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Linux; Android 6.0.1; LG-F770S Build/MXB48T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/76.0.3809.111 Mobile Safari/537.36', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_X_REQUESTED_WITH': 'com.example.administrator.myapplication', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7', 'HTTP_COOKIE': 'csrftoken=BSlu14NR1CanDOT6nEhwT5UQvWLNfXED5N4mHABowpDZo1RjIpXLQBzLM5z7kjkq; sessionid=yykfke83w6vc0qq82kkkujl82ayhp721'}[0m
+[22/Aug/2019 17:05:13] INFO [django.request:60] [36mGET /accounts/login - 200[0m
+[22/Aug/2019 17:05:14] INFO [django.request:60] [36mGET /accounts/%7B%20static%20'css/css-index.css'%20%25%7D[0m
+[22/Aug/2019 17:05:14] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Linux; Android 6.0.1; LG-F770S Build/MXB48T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/76.0.3809.111 Mobile Safari/537.36', 'HTTP_ACCEPT': 'text/css,*/*;q=0.1', 'HTTP_X_REQUESTED_WITH': 'com.example.administrator.myapplication', 'HTTP_REFERER': 'http://52.231.77.117:8000/accounts/login', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7', 'HTTP_COOKIE': 'csrftoken=BSlu14NR1CanDOT6nEhwT5UQvWLNfXED5N4mHABowpDZo1RjIpXLQBzLM5z7kjkq; sessionid=yykfke83w6vc0qq82kkkujl82ayhp721'}[0m
+[22/Aug/2019 17:05:14] INFO [django.request:60] [35mGET /accounts/%7B%20static%20'css/css-index.css'%20%25%7D - 404[0m
+[22/Aug/2019 17:05:14] WARNING [django.request:228] Not Found: /accounts/{ static 'css/css-index.css' %}
+[22/Aug/2019 17:05:23] INFO [django.request:60] [36mPOST /accounts/login[0m
+[22/Aug/2019 17:05:23] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_ORIGIN': 'http://52.231.77.117:8000', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Linux; Android 6.0.1; LG-F770S Build/MXB48T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/76.0.3809.111 Mobile Safari/537.36', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_X_REQUESTED_WITH': 'com.example.administrator.myapplication', 'HTTP_REFERER': 'http://52.231.77.117:8000/accounts/login', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7', 'HTTP_COOKIE': 'csrftoken=BSlu14NR1CanDOT6nEhwT5UQvWLNfXED5N4mHABowpDZo1RjIpXLQBzLM5z7kjkq; sessionid=yykfke83w6vc0qq82kkkujl82ayhp721'}[0m
+[22/Aug/2019 17:05:23] DEBUG [django.request:60] [36mb'csrfmiddlewaretoken=3P4IdGTUBv3sTZCXnn4l1qn7KB3vU6cWxKNATcHr6iw4EcAaI8KAYW221KRPZsSJ&username=sktds92&password=subway0805'[0m
+[22/Aug/2019 17:05:24] INFO [django.request:60] [36mPOST /accounts/login - 302[0m
+[22/Aug/2019 17:26:14] INFO [django.request:60] [36mGET /accounts/login/[0m
+[22/Aug/2019 17:26:14] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Linux; Android 6.0.1; LG-F770S Build/MXB48T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/76.0.3809.111 Mobile Safari/537.36', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_X_REQUESTED_WITH': 'com.example.administrator.myapplication', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7', 'HTTP_COOKIE': 'csrftoken=BSlu14NR1CanDOT6nEhwT5UQvWLNfXED5N4mHABowpDZo1RjIpXLQBzLM5z7kjkq; sessionid=yykfke83w6vc0qq82kkkujl82ayhp721'}[0m
+[22/Aug/2019 17:26:14] ERROR [django.request:228] Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: login() got an unexpected keyword argument 'template_name'
+[22/Aug/2019 17:26:14] INFO [django.request:60] [35mGET /accounts/login/ - 500[0m
+[22/Aug/2019 17:50:48] INFO [django.request:60] [36mGET /account/login[0m
+[22/Aug/2019 17:50:48] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 17:50:48] INFO [django.request:60] [36mGET /account/login - 200[0m
+[22/Aug/2019 17:50:49] INFO [django.request:60] [36mGET /account/%7B%20static%20'css/css-index.css'%20%25%7D[0m
+[22/Aug/2019 17:50:49] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/css,*/*;q=0.1', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr'}[0m
+[22/Aug/2019 17:50:49] INFO [django.request:60] [35mGET /account/%7B%20static%20'css/css-index.css'%20%25%7D - 404[0m
+[22/Aug/2019 17:50:49] WARNING [django.request:228] Not Found: /account/{ static 'css/css-index.css' %}
+[22/Aug/2019 17:52:28] INFO [django.request:60] [36mGET /account/login[0m
+[22/Aug/2019 17:52:28] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 17:52:28] INFO [django.request:60] [36mGET /account/login - 200[0m
+[22/Aug/2019 17:52:29] INFO [django.request:60] [36mGET /account/%7B%20static%20'css/css-index.css'%20%25%7D[0m
+[22/Aug/2019 17:52:29] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/css,*/*;q=0.1', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr'}[0m
+[22/Aug/2019 17:52:29] INFO [django.request:60] [35mGET /account/%7B%20static%20'css/css-index.css'%20%25%7D - 404[0m
+[22/Aug/2019 17:52:29] WARNING [django.request:228] Not Found: /account/{ static 'css/css-index.css' %}
+[22/Aug/2019 17:55:42] INFO [django.request:60] [36mGET /account/login[0m
+[22/Aug/2019 17:55:42] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_CACHE_CONTROL': 'max-age=0'}[0m
+[22/Aug/2019 17:55:42] INFO [django.request:60] [36mGET /account/login - 200[0m
+[22/Aug/2019 17:55:43] INFO [django.request:60] [36mGET /account/%7B%20static%20'css/css-index.css'%20%25%7D[0m
+[22/Aug/2019 17:55:43] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/css,*/*;q=0.1', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr', 'HTTP_CACHE_CONTROL': 'max-age=0'}[0m
+[22/Aug/2019 17:55:43] INFO [django.request:60] [35mGET /account/%7B%20static%20'css/css-index.css'%20%25%7D - 404[0m
+[22/Aug/2019 17:55:43] WARNING [django.request:228] Not Found: /account/{ static 'css/css-index.css' %}
+[22/Aug/2019 17:57:03] INFO [django.request:60] [36mGET /account/login[0m
+[22/Aug/2019 17:57:03] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 17:57:03] INFO [django.request:60] [36mGET /account/login - 200[0m
+[22/Aug/2019 17:57:04] INFO [django.request:60] [36mGET /account/%7B%20static%20'css/css-index.css'%20%25%7D[0m
+[22/Aug/2019 17:57:04] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/css,*/*;q=0.1', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr'}[0m
+[22/Aug/2019 17:57:04] INFO [django.request:60] [35mGET /account/%7B%20static%20'css/css-index.css'%20%25%7D - 404[0m
+[22/Aug/2019 17:57:04] WARNING [django.request:228] Not Found: /account/{ static 'css/css-index.css' %}
+[22/Aug/2019 17:57:18] INFO [django.request:60] [36mPOST /account/login[0m
+[22/Aug/2019 17:57:18] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 17:57:18] DEBUG [django.request:60] [36mb'csrfmiddlewaretoken=2pZWyWy8vhjsbMP8IFBKxctzfBpzQRFejcCm0EhChBbLgmvqgNnPqS52hn4zS4g0&username=sktds92&password=subway0805'[0m
+[22/Aug/2019 17:57:18] INFO [django.request:60] [36mPOST /account/login - 302[0m
+[22/Aug/2019 17:57:19] INFO [django.request:60] [36mGET /parent/main[0m
+[22/Aug/2019 17:57:19] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 17:57:19] ERROR [django.request:228] Internal Server Error: /parent/main
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/subway/baby/parent/views.py", line 10, in main
+    picture = BabyPicture.objects.get(id = 9)
+  File "/usr/local/lib/python3.6/dist-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/django/db/models/query.py", line 399, in get
+    self.model._meta.object_name
+rasberrypy.models.BabyPicture.DoesNotExist: BabyPicture matching query does not exist.
+[22/Aug/2019 17:57:19] INFO [django.request:60] [35mGET /parent/main - 500[0m
+[22/Aug/2019 18:00:11] INFO [django.request:60] [36mGET /account/login[0m
+[22/Aug/2019 18:00:11] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Linux; Android 6.0.1; LG-F770S) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.111 Mobile Safari/537.36', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7'}[0m
+[22/Aug/2019 18:00:11] INFO [django.request:60] [36mGET /account/login - 200[0m
+[22/Aug/2019 18:00:15] INFO [django.request:60] [36mGET /account/%7B%20static%20'css/css-index.css'%20%25%7D[0m
+[22/Aug/2019 18:00:15] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Linux; Android 6.0.1; LG-F770S) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.111 Mobile Safari/537.36', 'HTTP_ACCEPT': 'text/css,*/*;q=0.1', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7', 'HTTP_COOKIE': 'csrftoken=7LHHmK9KdkyaEPUAwLhD9i74q7pR9dnk5htZGxWRPhub09dF6DZ88SdAMYPjXzmT'}[0m
+[22/Aug/2019 18:00:15] INFO [django.request:60] [35mGET /account/%7B%20static%20'css/css-index.css'%20%25%7D - 404[0m
+[22/Aug/2019 18:00:15] WARNING [django.request:228] Not Found: /account/{ static 'css/css-index.css' %}
+[22/Aug/2019 18:00:17] INFO [django.request:60] [36mGET /favicon.ico[0m
+[22/Aug/2019 18:00:17] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Linux; Android 6.0.1; LG-F770S) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.111 Mobile Safari/537.36', 'HTTP_ACCEPT': 'image/webp,image/apng,image/*,*/*;q=0.8', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7', 'HTTP_COOKIE': 'csrftoken=7LHHmK9KdkyaEPUAwLhD9i74q7pR9dnk5htZGxWRPhub09dF6DZ88SdAMYPjXzmT'}[0m
+[22/Aug/2019 18:00:17] INFO [django.request:60] [35mGET /favicon.ico - 404[0m
+[22/Aug/2019 18:00:17] WARNING [django.request:228] Not Found: /favicon.ico
+[22/Aug/2019 18:23:57] INFO [django.request:60] [36mGET /account/login[0m
+[22/Aug/2019 18:23:57] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Linux; Android 6.0.1; LG-F770S Build/MXB48T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/76.0.3809.111 Mobile Safari/537.36', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_X_REQUESTED_WITH': 'com.example.administrator.myapplication', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7'}[0m
+[22/Aug/2019 18:23:57] INFO [django.request:60] [36mGET /account/login - 200[0m
+[22/Aug/2019 18:23:58] INFO [django.request:60] [36mGET /account/%7B%20static%20'css/css-index.css'%20%25%7D[0m
+[22/Aug/2019 18:23:58] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Linux; Android 6.0.1; LG-F770S Build/MXB48T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/76.0.3809.111 Mobile Safari/537.36', 'HTTP_ACCEPT': 'text/css,*/*;q=0.1', 'HTTP_X_REQUESTED_WITH': 'com.example.administrator.myapplication', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7', 'HTTP_COOKIE': 'csrftoken=hYieA3oHThkt5Gb9JqcG7bCtKe4Fy8jliKZEeoM6Z3MQdJ2iYDFNF22RV4O5SkhA'}[0m
+[22/Aug/2019 18:23:58] INFO [django.request:60] [35mGET /account/%7B%20static%20'css/css-index.css'%20%25%7D - 404[0m
+[22/Aug/2019 18:23:58] WARNING [django.request:228] Not Found: /account/{ static 'css/css-index.css' %}
+[22/Aug/2019 18:23:59] INFO [django.request:60] [36mGET /favicon.ico[0m
+[22/Aug/2019 18:23:59] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Linux; Android 6.0.1; LG-F770S Build/MXB48T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/76.0.3809.111 Mobile Safari/537.36', 'HTTP_ACCEPT': 'image/webp,image/apng,image/*,*/*;q=0.8', 'HTTP_X_REQUESTED_WITH': 'com.example.administrator.myapplication', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7', 'HTTP_COOKIE': 'csrftoken=hYieA3oHThkt5Gb9JqcG7bCtKe4Fy8jliKZEeoM6Z3MQdJ2iYDFNF22RV4O5SkhA'}[0m
+[22/Aug/2019 18:23:59] INFO [django.request:60] [35mGET /favicon.ico - 404[0m
+[22/Aug/2019 18:23:59] WARNING [django.request:228] Not Found: /favicon.ico
+[22/Aug/2019 18:36:11] INFO [django.request:60] [36mGET /account/login[0m
+[22/Aug/2019 18:36:11] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 18:36:11] INFO [django.request:60] [36mGET /account/login - 200[0m
+[22/Aug/2019 18:36:12] INFO [django.request:60] [36mGET /account/%7B%20static%20'css/css-index.css'%20%25%7D[0m
+[22/Aug/2019 18:36:12] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/css,*/*;q=0.1', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_CACHE_CONTROL': 'max-age=0'}[0m
+[22/Aug/2019 18:36:12] INFO [django.request:60] [35mGET /account/%7B%20static%20'css/css-index.css'%20%25%7D - 404[0m
+[22/Aug/2019 18:36:12] WARNING [django.request:228] Not Found: /account/{ static 'css/css-index.css' %}
+[22/Aug/2019 18:36:25] INFO [django.request:60] [36mPOST /account/login[0m
+[22/Aug/2019 18:36:25] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 18:36:25] DEBUG [django.request:60] [36mb'csrfmiddlewaretoken=ksRtgeC52lsZkvOvi0UaTsjHlNzDRGjhBfuTIWlzOFkip5uNQ8GfM8VanzeDTTU3&username=sktds92&password=subway0805'[0m
+[22/Aug/2019 18:36:25] INFO [django.request:60] [36mPOST /account/login - 302[0m
+[22/Aug/2019 18:36:25] INFO [django.request:60] [36mGET /parent/main[0m
+[22/Aug/2019 18:36:25] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 18:36:25] ERROR [django.request:228] Internal Server Error: /parent/main
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/subway/baby/parent/views.py", line 10, in main
+    picture = BabyPicture.objects.get(id = 9)
+  File "/usr/local/lib/python3.6/dist-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/django/db/models/query.py", line 399, in get
+    self.model._meta.object_name
+rasberrypy.models.BabyPicture.DoesNotExist: BabyPicture matching query does not exist.
+[22/Aug/2019 18:36:25] INFO [django.request:60] [35mGET /parent/main - 500[0m
+[22/Aug/2019 18:36:47] INFO [django.request:60] [36mGET /product/auth[0m
+[22/Aug/2019 18:36:47] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 18:36:47] INFO [django.request:60] [35mGET /product/auth - 404[0m
+[22/Aug/2019 18:36:47] WARNING [django.request:228] Not Found: /product/auth
+[22/Aug/2019 18:37:03] INFO [django.request:60] [36mGET /rasberrypy/auth[0m
+[22/Aug/2019 18:37:03] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 18:37:03] INFO [django.request:60] [35mGET /rasberrypy/auth - 404[0m
+[22/Aug/2019 18:37:03] WARNING [django.request:228] Not Found: /rasberrypy/auth
+[22/Aug/2019 18:37:13] INFO [django.request:60] [36mGET /rasberrypy/productionAuth[0m
+[22/Aug/2019 18:37:13] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 18:37:13] INFO [django.request:60] [35mGET /rasberrypy/productionAuth - 404[0m
+[22/Aug/2019 18:37:13] WARNING [django.request:228] Not Found: /rasberrypy/productionAuth
+[22/Aug/2019 18:37:22] INFO [django.request:60] [36mGET /rasberrypy/productAuth[0m
+[22/Aug/2019 18:37:22] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 18:37:22] INFO [django.request:60] [36mGET /rasberrypy/productAuth - 200[0m
+[22/Aug/2019 18:37:32] INFO [django.request:60] [36mPOST /rasberrypy/productAuth[0m
+[22/Aug/2019 18:37:32] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/rasberrypy/productAuth', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 18:37:32] DEBUG [django.request:60] [36mb'csrfmiddlewaretoken=qfpUd72io3N4bwOHZzERnyME5OmIcwTnH22kFPLManFng6uZxHqWgeo77A1IeJu9&userId=sktds92&authentication=ekscn0805'[0m
+[22/Aug/2019 18:37:32] INFO [django.request:60] [36mPOST /rasberrypy/productAuth - 200[0m
+[22/Aug/2019 18:37:32] DEBUG [django.request:60] [36m{'content-type': ('Content-Type', 'application/json')}[0m
+[22/Aug/2019 18:37:32] DEBUG [django.request:60] [36mb'{}'[0m
+[22/Aug/2019 18:37:44] INFO [django.request:60] [36mGET /account/login[0m
+[22/Aug/2019 18:37:44] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 18:37:44] INFO [django.request:60] [36mGET /account/login - 200[0m
+[22/Aug/2019 18:37:45] INFO [django.request:60] [36mGET /account/%7B%20static%20'css/css-index.css'%20%25%7D[0m
+[22/Aug/2019 18:37:45] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/css,*/*;q=0.1', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd'}[0m
+[22/Aug/2019 18:37:45] INFO [django.request:60] [35mGET /account/%7B%20static%20'css/css-index.css'%20%25%7D - 404[0m
+[22/Aug/2019 18:37:45] WARNING [django.request:228] Not Found: /account/{ static 'css/css-index.css' %}
+[22/Aug/2019 18:37:52] INFO [django.request:60] [36mPOST /account/login[0m
+[22/Aug/2019 18:37:52] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 18:37:52] DEBUG [django.request:60] [36mb'csrfmiddlewaretoken=4HHeqRVJVq4lkZUHquHvyPLzFFldHlwWlukESzEdHKWEpzAZYCtArvn2Hr0dJy7I&username=sktds92&password=subway0805'[0m
+[22/Aug/2019 18:37:52] INFO [django.request:60] [36mPOST /account/login - 302[0m
+[22/Aug/2019 18:37:53] INFO [django.request:60] [36mGET /parent/main[0m
+[22/Aug/2019 18:37:53] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 18:37:53] ERROR [django.request:228] Internal Server Error: /parent/main
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/subway/baby/parent/views.py", line 10, in main
+    picture = BabyPicture.objects.get(id = 9)
+  File "/usr/local/lib/python3.6/dist-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/django/db/models/query.py", line 399, in get
+    self.model._meta.object_name
+rasberrypy.models.BabyPicture.DoesNotExist: BabyPicture matching query does not exist.
+[22/Aug/2019 18:37:53] INFO [django.request:60] [35mGET /parent/main - 500[0m
+[22/Aug/2019 18:40:48] INFO [django.request:60] [36mGET /parent/main[0m
+[22/Aug/2019 18:40:48] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 18:40:48] ERROR [django.request:228] Internal Server Error: /parent/main
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/subway/baby/parent/views.py", line 10, in main
+    picture = BabyPicture.objects.get(productionKey=user.productionKey )
+  File "/usr/local/lib/python3.6/dist-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/django/db/models/query.py", line 399, in get
+    self.model._meta.object_name
+rasberrypy.models.BabyPicture.DoesNotExist: BabyPicture matching query does not exist.
+[22/Aug/2019 18:40:48] INFO [django.request:60] [35mGET /parent/main - 500[0m
+[22/Aug/2019 18:41:05] INFO [django.request:60] [36mGET /account/login[0m
+[22/Aug/2019 18:41:05] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 18:41:05] INFO [django.request:60] [36mGET /account/login - 200[0m
+[22/Aug/2019 18:41:05] INFO [django.request:60] [36mGET /account/%7B%20static%20'css/css-index.css'%20%25%7D[0m
+[22/Aug/2019 18:41:05] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/css,*/*;q=0.1', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd'}[0m
+[22/Aug/2019 18:41:05] INFO [django.request:60] [35mGET /account/%7B%20static%20'css/css-index.css'%20%25%7D - 404[0m
+[22/Aug/2019 18:41:05] WARNING [django.request:228] Not Found: /account/{ static 'css/css-index.css' %}
+[22/Aug/2019 18:41:13] INFO [django.request:60] [36mPOST /account/login[0m
+[22/Aug/2019 18:41:13] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 18:41:13] DEBUG [django.request:60] [36mb'csrfmiddlewaretoken=Us4Obv4ES61njIaDB5Tzz69Wt1EpIFE1bfHeDdN8EqTGoiQV9dFEsMLpvNjpKSfN&username=sktds92&password=subway0805'[0m
+[22/Aug/2019 18:41:13] INFO [django.request:60] [36mPOST /account/login - 302[0m
+[22/Aug/2019 18:41:13] INFO [django.request:60] [36mGET /parent/main[0m
+[22/Aug/2019 18:41:13] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 18:41:13] ERROR [django.request:228] Internal Server Error: /parent/main
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/subway/baby/parent/views.py", line 10, in main
+    picture = BabyPicture.objects.get(productionKey=user.productionKey )
+  File "/usr/local/lib/python3.6/dist-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/django/db/models/query.py", line 399, in get
+    self.model._meta.object_name
+rasberrypy.models.BabyPicture.DoesNotExist: BabyPicture matching query does not exist.
+[22/Aug/2019 18:41:13] INFO [django.request:60] [35mGET /parent/main - 500[0m
+[22/Aug/2019 18:43:17] INFO [django.request:60] [36mGET /account/login[0m
+[22/Aug/2019 18:43:17] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 18:43:17] INFO [django.request:60] [36mGET /account/login - 200[0m
+[22/Aug/2019 18:43:17] INFO [django.request:60] [36mGET /account/%7B%20static%20'css/css-index.css'%20%25%7D[0m
+[22/Aug/2019 18:43:17] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/css,*/*;q=0.1', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd'}[0m
+[22/Aug/2019 18:43:17] INFO [django.request:60] [35mGET /account/%7B%20static%20'css/css-index.css'%20%25%7D - 404[0m
+[22/Aug/2019 18:43:17] WARNING [django.request:228] Not Found: /account/{ static 'css/css-index.css' %}
+[22/Aug/2019 18:43:25] INFO [django.request:60] [36mPOST /account/login[0m
+[22/Aug/2019 18:43:25] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 18:43:25] DEBUG [django.request:60] [36mb'csrfmiddlewaretoken=i8xfLuxeGYLynAKX9xsK7nISKovLDye2zVaFdcgIsiDRsaqfHFeP03klMaaLFLPO&username=sktds92&password=subway0805'[0m
+[22/Aug/2019 18:43:25] INFO [django.request:60] [36mPOST /account/login - 302[0m
+[22/Aug/2019 18:43:25] INFO [django.request:60] [36mGET /parent/main[0m
+[22/Aug/2019 18:43:25] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 18:43:26] ERROR [django.request:228] Internal Server Error: /parent/main
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/subway/baby/parent/views.py", line 10, in main
+    picture = BabyPicture.objects.filter(id = productionKey,).order_by("-createTime",)
+NameError: name 'productionKey' is not defined
+[22/Aug/2019 18:43:26] INFO [django.request:60] [35mGET /parent/main - 500[0m
+[22/Aug/2019 18:44:55] INFO [django.request:60] [36mGET /account/login[0m
+[22/Aug/2019 18:44:55] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 18:44:55] INFO [django.request:60] [36mGET /account/login - 200[0m
+[22/Aug/2019 18:44:55] INFO [django.request:60] [36mGET /account/%7B%20static%20'css/css-index.css'%20%25%7D[0m
+[22/Aug/2019 18:44:55] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/css,*/*;q=0.1', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd'}[0m
+[22/Aug/2019 18:44:55] INFO [django.request:60] [35mGET /account/%7B%20static%20'css/css-index.css'%20%25%7D - 404[0m
+[22/Aug/2019 18:44:55] WARNING [django.request:228] Not Found: /account/{ static 'css/css-index.css' %}
+[22/Aug/2019 18:45:02] INFO [django.request:60] [36mPOST /account/login[0m
+[22/Aug/2019 18:45:02] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 18:45:02] DEBUG [django.request:60] [36mb'csrfmiddlewaretoken=87zLCwP0EMblLYzaBcpBToQ14EIgyVAApUcb4eyuq63EQyfs9kbGM4su6qngA8bm&username=sktds92&password=subway0805'[0m
+[22/Aug/2019 18:45:03] INFO [django.request:60] [36mPOST /account/login - 302[0m
+[22/Aug/2019 18:45:03] INFO [django.request:60] [36mGET /parent/main[0m
+[22/Aug/2019 18:45:03] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 18:45:03] INFO [django.request:60] [36mGET /parent/main - 200[0m
+[22/Aug/2019 18:45:03] INFO [django.request:60] [36mGET /parent/%7B%20static%20'css/css-index.css'%20%25%7D[0m
+[22/Aug/2019 18:45:03] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/css,*/*;q=0.1', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/parent/main', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd'}[0m
+[22/Aug/2019 18:45:03] INFO [django.request:60] [35mGET /parent/%7B%20static%20'css/css-index.css'%20%25%7D - 404[0m
+[22/Aug/2019 18:45:03] WARNING [django.request:228] Not Found: /parent/{ static 'css/css-index.css' %}
+[22/Aug/2019 18:45:33] INFO [django.request:60] [36mGET /parent/productionConfigure[0m
+[22/Aug/2019 18:45:33] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 18:45:33] ERROR [django.request:228] Internal Server Error: /parent/productionConfigure
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/subway/baby/parent/views.py", line 35, in setConfigure
+    {"configure" : productionConfigure})
+  File "/usr/local/lib/python3.6/dist-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.6/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.6/dist-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: {'configure': <ProductionConfigure bound=True, valid=Unknown, fields=(timeConfigure;mode)>}
+[22/Aug/2019 18:45:33] INFO [django.request:60] [35mGET /parent/productionConfigure - 500[0m
+[22/Aug/2019 18:47:18] INFO [django.request:60] [36mGET /parent/productionConfigure[0m
+[22/Aug/2019 18:47:18] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_CACHE_CONTROL': 'max-age=0'}[0m
+[22/Aug/2019 18:47:18] ERROR [django.request:228] Internal Server Error: /parent/productionConfigure
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/subway/baby/parent/views.py", line 35, in setConfigure
+    {"configure" : productionConfigure})
+  File "/usr/local/lib/python3.6/dist-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.6/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.6/dist-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: {'configure': <ProductionConfigure bound=True, valid=Unknown, fields=(timeConfigure;mode)>}
+[22/Aug/2019 18:47:18] INFO [django.request:60] [35mGET /parent/productionConfigure - 500[0m
+[22/Aug/2019 18:47:47] INFO [django.request:60] [36mGET /account/login[0m
+[22/Aug/2019 18:47:47] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 18:47:47] INFO [django.request:60] [36mGET /account/login - 200[0m
+[22/Aug/2019 18:47:47] INFO [django.request:60] [36mGET /account/%7B%20static%20'css/css-index.css'%20%25%7D[0m
+[22/Aug/2019 18:47:47] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/css,*/*;q=0.1', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd'}[0m
+[22/Aug/2019 18:47:47] INFO [django.request:60] [35mGET /account/%7B%20static%20'css/css-index.css'%20%25%7D - 404[0m
+[22/Aug/2019 18:47:47] WARNING [django.request:228] Not Found: /account/{ static 'css/css-index.css' %}
+[22/Aug/2019 18:47:57] INFO [django.request:60] [36mPOST /account/login[0m
+[22/Aug/2019 18:47:57] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 18:47:57] DEBUG [django.request:60] [36mb'csrfmiddlewaretoken=9IKaARZgICYDQLeXGFKZBPcjXBjabmLQqvnA2zIKuWQWVlUfeNw4uvOMZnYadzmC&username=sktds92&password=subway0805'[0m
+[22/Aug/2019 18:47:57] INFO [django.request:60] [36mPOST /account/login - 302[0m
+[22/Aug/2019 18:47:57] INFO [django.request:60] [36mGET /parent/main[0m
+[22/Aug/2019 18:47:57] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 18:47:58] INFO [django.request:60] [36mGET /parent/main - 200[0m
+[22/Aug/2019 18:47:58] INFO [django.request:60] [36mGET /parent/%7B%20static%20'css/css-index.css'%20%25%7D[0m
+[22/Aug/2019 18:47:58] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/css,*/*;q=0.1', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/parent/main', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd'}[0m
+[22/Aug/2019 18:47:58] INFO [django.request:60] [35mGET /parent/%7B%20static%20'css/css-index.css'%20%25%7D - 404[0m
+[22/Aug/2019 18:47:58] WARNING [django.request:228] Not Found: /parent/{ static 'css/css-index.css' %}
+[22/Aug/2019 18:48:11] INFO [django.request:60] [36mGET /parent/productionConfigure[0m
+[22/Aug/2019 18:48:11] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 18:48:11] ERROR [django.request:228] Internal Server Error: /parent/productionConfigure
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/subway/baby/parent/views.py", line 35, in setConfigure
+    {"configure" : productionConfigure})
+  File "/usr/local/lib/python3.6/dist-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.6/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.6/dist-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: {'configure': <ProductionConfigure bound=True, valid=Unknown, fields=(timeConfigure;mode)>}
+[22/Aug/2019 18:48:11] INFO [django.request:60] [35mGET /parent/productionConfigure - 500[0m
+[22/Aug/2019 18:48:51] INFO [django.request:60] [36mGET /parent/productionConfigure[0m
+[22/Aug/2019 18:48:51] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 18:48:51] INFO [django.request:60] [36mGET /parent/productionConfigure - 200[0m
+[22/Aug/2019 18:48:51] INFO [django.request:60] [36mGET /parent/%7B%20static%20'css/css-index.css'%20%25%7D[0m
+[22/Aug/2019 18:48:51] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/css,*/*;q=0.1', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/parent/productionConfigure', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd'}[0m
+[22/Aug/2019 18:48:51] INFO [django.request:60] [35mGET /parent/%7B%20static%20'css/css-index.css'%20%25%7D - 404[0m
+[22/Aug/2019 18:48:51] WARNING [django.request:228] Not Found: /parent/{ static 'css/css-index.css' %}
+[22/Aug/2019 18:49:01] INFO [django.request:60] [36mGET /account/login[0m
+[22/Aug/2019 18:49:01] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 18:49:01] INFO [django.request:60] [36mGET /account/login - 200[0m
+[22/Aug/2019 18:49:02] INFO [django.request:60] [36mGET /account/%7B%20static%20'css/css-index.css'%20%25%7D[0m
+[22/Aug/2019 18:49:02] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/css,*/*;q=0.1', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd'}[0m
+[22/Aug/2019 18:49:02] INFO [django.request:60] [35mGET /account/%7B%20static%20'css/css-index.css'%20%25%7D - 404[0m
+[22/Aug/2019 18:49:02] WARNING [django.request:228] Not Found: /account/{ static 'css/css-index.css' %}
+[22/Aug/2019 18:49:08] INFO [django.request:60] [36mPOST /account/login[0m
+[22/Aug/2019 18:49:08] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 18:49:08] DEBUG [django.request:60] [36mb'csrfmiddlewaretoken=jsuANVnlhb3F0eMXTZTsD4BX7HypiFbSAf70fD6P3vVY5Osfr7FxwKdq9tdpkSME&username=sktds92&password=subway0805'[0m
+[22/Aug/2019 18:49:08] INFO [django.request:60] [36mPOST /account/login - 302[0m
+[22/Aug/2019 18:49:08] INFO [django.request:60] [36mGET /parent/main[0m
+[22/Aug/2019 18:49:08] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 18:49:08] INFO [django.request:60] [36mGET /parent/main - 200[0m
+[22/Aug/2019 18:49:09] INFO [django.request:60] [36mGET /parent/%7B%20static%20'css/css-index.css'%20%25%7D[0m
+[22/Aug/2019 18:49:09] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/css,*/*;q=0.1', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/parent/main', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd'}[0m
+[22/Aug/2019 18:49:09] INFO [django.request:60] [35mGET /parent/%7B%20static%20'css/css-index.css'%20%25%7D - 404[0m
+[22/Aug/2019 18:49:09] WARNING [django.request:228] Not Found: /parent/{ static 'css/css-index.css' %}
+[22/Aug/2019 18:49:15] INFO [django.request:60] [36mGET /parent/productionConfigure[0m
+[22/Aug/2019 18:49:15] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 18:49:15] INFO [django.request:60] [36mGET /parent/productionConfigure - 200[0m
+[22/Aug/2019 18:49:16] INFO [django.request:60] [36mGET /parent/%7B%20static%20'css/css-index.css'%20%25%7D[0m
+[22/Aug/2019 18:49:16] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/css,*/*;q=0.1', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/parent/productionConfigure', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd'}[0m
+[22/Aug/2019 18:49:16] INFO [django.request:60] [35mGET /parent/%7B%20static%20'css/css-index.css'%20%25%7D - 404[0m
+[22/Aug/2019 18:49:16] WARNING [django.request:228] Not Found: /parent/{ static 'css/css-index.css' %}
+[22/Aug/2019 18:50:54] INFO [django.request:60] [36mGET /parent/productionConfigure[0m
+[22/Aug/2019 18:50:54] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 18:50:54] ERROR [django.request:228] Internal Server Error: /parent/productionConfigure
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/subway/baby/parent/views.py", line 35, in setConfigure
+    {"productionConfigure" : productionConfigure})
+  File "/usr/local/lib/python3.6/dist-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.6/dist-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.6/dist-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.6/dist-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.6/dist-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.6/dist-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/usr/local/lib/python3.6/dist-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.6/dist-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/usr/local/lib/python3.6/dist-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.6/dist-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/usr/local/lib/python3.6/dist-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.6/dist-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/usr/local/lib/python3.6/dist-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/usr/local/lib/python3.6/dist-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.6/dist-packages/django/template/base.py", line 987, in render
+    output = self.filter_expression.resolve(context)
+  File "/usr/local/lib/python3.6/dist-packages/django/template/base.py", line 671, in resolve
+    obj = self.var.resolve(context)
+  File "/usr/local/lib/python3.6/dist-packages/django/template/base.py", line 796, in resolve
+    value = self._resolve_lookup(context)
+  File "/usr/local/lib/python3.6/dist-packages/django/template/base.py", line 858, in _resolve_lookup
+    current = current()
+  File "/usr/local/lib/python3.6/dist-packages/django/forms/forms.py", line 304, in as_p
+    errors_on_separate_row=True,
+  File "/usr/local/lib/python3.6/dist-packages/django/forms/forms.py", line 202, in _html_output
+    top_errors = self.non_field_errors()  # Errors that should be displayed above all fields.
+  File "/usr/local/lib/python3.6/dist-packages/django/forms/forms.py", line 313, in non_field_errors
+    return self.errors.get(NON_FIELD_ERRORS, self.error_class(error_class='nonfield'))
+  File "/usr/local/lib/python3.6/dist-packages/django/forms/forms.py", line 180, in errors
+    self.full_clean()
+  File "/usr/local/lib/python3.6/dist-packages/django/forms/forms.py", line 381, in full_clean
+    self._clean_fields()
+  File "/usr/local/lib/python3.6/dist-packages/django/forms/forms.py", line 393, in _clean_fields
+    value = field.widget.value_from_datadict(self.data, self.files, self.add_prefix(name))
+  File "/usr/local/lib/python3.6/dist-packages/django/forms/widgets.py", line 246, in value_from_datadict
+    return data.get(name)
+AttributeError: 'Product' object has no attribute 'get'
+[22/Aug/2019 18:50:54] INFO [django.request:60] [35mGET /parent/productionConfigure - 500[0m
+[22/Aug/2019 18:51:12] INFO [django.request:60] [36mGET /account/login[0m
+[22/Aug/2019 18:51:12] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 18:51:12] INFO [django.request:60] [36mGET /account/login - 200[0m
+[22/Aug/2019 18:51:13] INFO [django.request:60] [36mGET /account/%7B%20static%20'css/css-index.css'%20%25%7D[0m
+[22/Aug/2019 18:51:13] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/css,*/*;q=0.1', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd'}[0m
+[22/Aug/2019 18:51:13] INFO [django.request:60] [35mGET /account/%7B%20static%20'css/css-index.css'%20%25%7D - 404[0m
+[22/Aug/2019 18:51:13] WARNING [django.request:228] Not Found: /account/{ static 'css/css-index.css' %}
+[22/Aug/2019 18:51:22] INFO [django.request:60] [36mPOST /account/login[0m
+[22/Aug/2019 18:51:22] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 18:51:22] DEBUG [django.request:60] [36mb'csrfmiddlewaretoken=GROsSYMoKhGNJ6Py8TDOfExZ5Ep7BV2JXErSkGvSwBy6OGvQG1pT8k9s7q47D8Dv&username=sktds92&password=subway0805'[0m
+[22/Aug/2019 18:51:22] INFO [django.request:60] [36mPOST /account/login - 302[0m
+[22/Aug/2019 18:51:22] INFO [django.request:60] [36mGET /parent/main[0m
+[22/Aug/2019 18:51:22] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 18:51:22] INFO [django.request:60] [36mGET /parent/main - 200[0m
+[22/Aug/2019 18:51:22] INFO [django.request:60] [36mGET /parent/%7B%20static%20'css/css-index.css'%20%25%7D[0m
+[22/Aug/2019 18:51:22] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/css,*/*;q=0.1', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/parent/main', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd'}[0m
+[22/Aug/2019 18:51:22] INFO [django.request:60] [35mGET /parent/%7B%20static%20'css/css-index.css'%20%25%7D - 404[0m
+[22/Aug/2019 18:51:22] WARNING [django.request:228] Not Found: /parent/{ static 'css/css-index.css' %}
+[22/Aug/2019 18:51:27] INFO [django.request:60] [36mGET /parent/productionConfigure[0m
+[22/Aug/2019 18:51:27] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 18:51:27] ERROR [django.request:228] Internal Server Error: /parent/productionConfigure
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/subway/baby/parent/views.py", line 35, in setConfigure
+    {"productionConfigure" : productionConfigure})
+  File "/usr/local/lib/python3.6/dist-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.6/dist-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.6/dist-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.6/dist-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.6/dist-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.6/dist-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/usr/local/lib/python3.6/dist-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.6/dist-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/usr/local/lib/python3.6/dist-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.6/dist-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/usr/local/lib/python3.6/dist-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.6/dist-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/usr/local/lib/python3.6/dist-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/usr/local/lib/python3.6/dist-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.6/dist-packages/django/template/base.py", line 987, in render
+    output = self.filter_expression.resolve(context)
+  File "/usr/local/lib/python3.6/dist-packages/django/template/base.py", line 671, in resolve
+    obj = self.var.resolve(context)
+  File "/usr/local/lib/python3.6/dist-packages/django/template/base.py", line 796, in resolve
+    value = self._resolve_lookup(context)
+  File "/usr/local/lib/python3.6/dist-packages/django/template/base.py", line 858, in _resolve_lookup
+    current = current()
+  File "/usr/local/lib/python3.6/dist-packages/django/forms/forms.py", line 304, in as_p
+    errors_on_separate_row=True,
+  File "/usr/local/lib/python3.6/dist-packages/django/forms/forms.py", line 202, in _html_output
+    top_errors = self.non_field_errors()  # Errors that should be displayed above all fields.
+  File "/usr/local/lib/python3.6/dist-packages/django/forms/forms.py", line 313, in non_field_errors
+    return self.errors.get(NON_FIELD_ERRORS, self.error_class(error_class='nonfield'))
+  File "/usr/local/lib/python3.6/dist-packages/django/forms/forms.py", line 180, in errors
+    self.full_clean()
+  File "/usr/local/lib/python3.6/dist-packages/django/forms/forms.py", line 381, in full_clean
+    self._clean_fields()
+  File "/usr/local/lib/python3.6/dist-packages/django/forms/forms.py", line 393, in _clean_fields
+    value = field.widget.value_from_datadict(self.data, self.files, self.add_prefix(name))
+  File "/usr/local/lib/python3.6/dist-packages/django/forms/widgets.py", line 246, in value_from_datadict
+    return data.get(name)
+AttributeError: 'Product' object has no attribute 'get'
+[22/Aug/2019 18:51:27] INFO [django.request:60] [35mGET /parent/productionConfigure - 500[0m
+[22/Aug/2019 18:55:30] INFO [django.request:60] [36mGET /parent/main[0m
+[22/Aug/2019 18:55:30] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_CACHE_CONTROL': 'max-age=0'}[0m
+[22/Aug/2019 18:55:31] INFO [django.request:60] [36mGET /parent/main - 200[0m
+[22/Aug/2019 18:55:31] INFO [django.request:60] [36mGET /parent/%7B%20static%20'css/css-index.css'%20%25%7D[0m
+[22/Aug/2019 18:55:31] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/css,*/*;q=0.1', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/parent/main', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_CACHE_CONTROL': 'max-age=0'}[0m
+[22/Aug/2019 18:55:31] INFO [django.request:60] [35mGET /parent/%7B%20static%20'css/css-index.css'%20%25%7D - 404[0m
+[22/Aug/2019 18:55:31] WARNING [django.request:228] Not Found: /parent/{ static 'css/css-index.css' %}
+[22/Aug/2019 18:55:35] INFO [django.request:60] [36mGET /parent/main[0m
+[22/Aug/2019 18:55:35] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 18:55:35] INFO [django.request:60] [36mGET /parent/main - 200[0m
+[22/Aug/2019 18:55:36] INFO [django.request:60] [36mGET /parent/%7B%20static%20'css/css-index.css'%20%25%7D[0m
+[22/Aug/2019 18:55:36] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/css,*/*;q=0.1', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/parent/main', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd'}[0m
+[22/Aug/2019 18:55:36] INFO [django.request:60] [35mGET /parent/%7B%20static%20'css/css-index.css'%20%25%7D - 404[0m
+[22/Aug/2019 18:55:36] WARNING [django.request:228] Not Found: /parent/{ static 'css/css-index.css' %}
+[22/Aug/2019 18:55:58] INFO [django.request:60] [36mGET /account/login[0m
+[22/Aug/2019 18:55:58] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 18:55:58] INFO [django.request:60] [36mGET /account/login - 200[0m
+[22/Aug/2019 18:55:59] INFO [django.request:60] [36mGET /account/%7B%20static%20'css/css-index.css'%20%25%7D[0m
+[22/Aug/2019 18:55:59] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/css,*/*;q=0.1', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd'}[0m
+[22/Aug/2019 18:55:59] INFO [django.request:60] [35mGET /account/%7B%20static%20'css/css-index.css'%20%25%7D - 404[0m
+[22/Aug/2019 18:55:59] WARNING [django.request:228] Not Found: /account/{ static 'css/css-index.css' %}
+[22/Aug/2019 18:56:08] INFO [django.request:60] [36mPOST /account/login[0m
+[22/Aug/2019 18:56:08] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 18:56:08] DEBUG [django.request:60] [36mb'csrfmiddlewaretoken=semYO48lT0UtD6xreifli7RKesa7fxw6J1ZogMRPFkMMIGdJMq1qbNtdgeP7hK7S&username=sktds92&password=subway0805'[0m
+[22/Aug/2019 18:56:08] INFO [django.request:60] [36mPOST /account/login - 302[0m
+[22/Aug/2019 18:56:12] INFO [django.request:60] [36mGET /parent/main[0m
+[22/Aug/2019 18:56:12] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 18:56:12] INFO [django.request:60] [36mGET /parent/main - 200[0m
+[22/Aug/2019 18:56:12] INFO [django.request:60] [36mGET /parent/%7B%20static%20'css/css-index.css'%20%25%7D[0m
+[22/Aug/2019 18:56:12] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/css,*/*;q=0.1', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/parent/main', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd'}[0m
+[22/Aug/2019 18:56:12] INFO [django.request:60] [35mGET /parent/%7B%20static%20'css/css-index.css'%20%25%7D - 404[0m
+[22/Aug/2019 18:56:12] WARNING [django.request:228] Not Found: /parent/{ static 'css/css-index.css' %}
+[22/Aug/2019 19:01:13] INFO [django.request:60] [36mGET /account/login[0m
+[22/Aug/2019 19:01:13] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 19:01:13] INFO [django.request:60] [36mGET /account/login - 200[0m
+[22/Aug/2019 19:01:13] INFO [django.request:60] [36mGET /account/%7B%20static%20'css/css-index.css'%20%25%7D[0m
+[22/Aug/2019 19:01:13] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/css,*/*;q=0.1', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd'}[0m
+[22/Aug/2019 19:01:13] INFO [django.request:60] [35mGET /account/%7B%20static%20'css/css-index.css'%20%25%7D - 404[0m
+[22/Aug/2019 19:01:13] WARNING [django.request:228] Not Found: /account/{ static 'css/css-index.css' %}
+[22/Aug/2019 19:01:19] INFO [django.request:60] [36mPOST /account/login[0m
+[22/Aug/2019 19:01:19] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 19:01:19] DEBUG [django.request:60] [36mb'csrfmiddlewaretoken=iGqdvBJ44ba6RhUg76vensplBI0Dgmu7zt3DXjsyQv2pWRAyFehjg81ODuFDiz5T&username=sktds92&password=subway0805'[0m
+[22/Aug/2019 19:01:20] INFO [django.request:60] [36mPOST /account/login - 302[0m
+[22/Aug/2019 19:01:20] INFO [django.request:60] [36mGET /parent/main[0m
+[22/Aug/2019 19:01:20] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 19:01:20] INFO [django.request:60] [36mGET /parent/main - 200[0m
+[22/Aug/2019 19:01:20] INFO [django.request:60] [36mGET /parent/%7B%20static%20'css/css-index.css'%20%25%7D[0m
+[22/Aug/2019 19:01:20] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/css,*/*;q=0.1', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/parent/main', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd'}[0m
+[22/Aug/2019 19:01:20] INFO [django.request:60] [35mGET /parent/%7B%20static%20'css/css-index.css'%20%25%7D - 404[0m
+[22/Aug/2019 19:01:20] WARNING [django.request:228] Not Found: /parent/{ static 'css/css-index.css' %}
+[22/Aug/2019 19:01:32] INFO [django.request:60] [36mGET /parent/productionConfigure[0m
+[22/Aug/2019 19:01:32] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 19:01:32] ERROR [django.request:228] Internal Server Error: /parent/productionConfigure
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/subway/baby/parent/views.py", line 34, in setConfigure
+    productionConfigure.timeConfigure = product.timeConfigure
+AttributeError: 'Product' object has no attribute 'timeConfigure'
+[22/Aug/2019 19:01:32] INFO [django.request:60] [35mGET /parent/productionConfigure - 500[0m
+[22/Aug/2019 19:05:01] INFO [django.request:60] [36mGET /parent/main[0m
+[22/Aug/2019 19:05:01] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_CACHE_CONTROL': 'max-age=0'}[0m
+[22/Aug/2019 19:05:01] INFO [django.request:60] [36mGET /parent/main - 200[0m
+[22/Aug/2019 19:05:02] INFO [django.request:60] [36mGET /parent/%7B%20static%20'css/css-index.css'%20%25%7D[0m
+[22/Aug/2019 19:05:02] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/css,*/*;q=0.1', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/parent/main', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_CACHE_CONTROL': 'max-age=0'}[0m
+[22/Aug/2019 19:05:02] INFO [django.request:60] [35mGET /parent/%7B%20static%20'css/css-index.css'%20%25%7D - 404[0m
+[22/Aug/2019 19:05:02] WARNING [django.request:228] Not Found: /parent/{ static 'css/css-index.css' %}
+[22/Aug/2019 19:05:10] INFO [django.request:60] [36mGET /account/login[0m
+[22/Aug/2019 19:05:10] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 19:05:10] INFO [django.request:60] [36mGET /account/login - 200[0m
+[22/Aug/2019 19:05:10] INFO [django.request:60] [36mGET /account/%7B%20static%20'css/css-index.css'%20%25%7D[0m
+[22/Aug/2019 19:05:10] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/css,*/*;q=0.1', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd'}[0m
+[22/Aug/2019 19:05:10] INFO [django.request:60] [35mGET /account/%7B%20static%20'css/css-index.css'%20%25%7D - 404[0m
+[22/Aug/2019 19:05:10] WARNING [django.request:228] Not Found: /account/{ static 'css/css-index.css' %}
+[22/Aug/2019 19:05:17] INFO [django.request:60] [36mPOST /account/login[0m
+[22/Aug/2019 19:05:17] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 19:05:17] DEBUG [django.request:60] [36mb'csrfmiddlewaretoken=DsTiz45cJOuxFDoXBDy2fuVJtqDz9BICUfwI1MOGv8mQKd4f9Lk78axcvcizbOjo&username=sktds92&password=subway0805'[0m
+[22/Aug/2019 19:05:17] INFO [django.request:60] [36mPOST /account/login - 302[0m
+[22/Aug/2019 19:05:17] INFO [django.request:60] [36mGET /parent/main[0m
+[22/Aug/2019 19:05:17] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 19:05:17] INFO [django.request:60] [36mGET /parent/main - 200[0m
+[22/Aug/2019 19:05:18] INFO [django.request:60] [36mGET /parent/%7B%20static%20'css/css-index.css'%20%25%7D[0m
+[22/Aug/2019 19:05:18] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/css,*/*;q=0.1', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/parent/main', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd'}[0m
+[22/Aug/2019 19:05:18] INFO [django.request:60] [35mGET /parent/%7B%20static%20'css/css-index.css'%20%25%7D - 404[0m
+[22/Aug/2019 19:05:18] WARNING [django.request:228] Not Found: /parent/{ static 'css/css-index.css' %}
+[22/Aug/2019 19:06:09] INFO [django.request:60] [36mGET /parent/productionConfigure[0m
+[22/Aug/2019 19:06:09] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 19:06:10] INFO [django.request:60] [36mGET /parent/productionConfigure - 200[0m
+[22/Aug/2019 19:06:10] INFO [django.request:60] [36mGET /parent/%7B%20static%20'css/css-index.css'%20%25%7D[0m
+[22/Aug/2019 19:06:10] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/css,*/*;q=0.1', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/parent/productionConfigure', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd'}[0m
+[22/Aug/2019 19:06:10] INFO [django.request:60] [35mGET /parent/%7B%20static%20'css/css-index.css'%20%25%7D - 404[0m
+[22/Aug/2019 19:06:10] WARNING [django.request:228] Not Found: /parent/{ static 'css/css-index.css' %}
+[22/Aug/2019 19:12:25] INFO [django.request:60] [36mGET /parent/main[0m
+[22/Aug/2019 19:12:25] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_CACHE_CONTROL': 'max-age=0'}[0m
+[22/Aug/2019 19:12:25] INFO [django.request:60] [36mGET /parent/main - 200[0m
+[22/Aug/2019 19:12:25] INFO [django.request:60] [36mGET /static/css/font-awesome.min.css[0m
+[22/Aug/2019 19:12:25] INFO [django.request:60] [36mGET /static/css/bootstrap.min.css[0m
+[22/Aug/2019 19:12:25] INFO [django.request:60] [36mGET /static/css/animate.css[0m
+[22/Aug/2019 19:12:25] INFO [django.request:60] [36mGET /static/css/owl.theme.css[0m
+[22/Aug/2019 19:12:25] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/css,*/*;q=0.1', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/parent/main', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_CACHE_CONTROL': 'max-age=0'}[0m
+[22/Aug/2019 19:12:25] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/css,*/*;q=0.1', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/parent/main', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_CACHE_CONTROL': 'max-age=0'}[0m
+[22/Aug/2019 19:12:25] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/css,*/*;q=0.1', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/parent/main', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_IF_MODIFIED_SINCE': 'Thu, 22 Aug 2019 13:21:47 GMT', 'HTTP_CACHE_CONTROL': 'max-age=0'}[0m
+[22/Aug/2019 19:12:25] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/css,*/*;q=0.1', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/parent/main', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_IF_MODIFIED_SINCE': 'Thu, 22 Aug 2019 13:21:47 GMT', 'HTTP_CACHE_CONTROL': 'max-age=0'}[0m
+[22/Aug/2019 19:12:25] INFO [django.request:60] [36mGET /static/css/bootstrap.min.css - 200[0m
+[22/Aug/2019 19:12:25] INFO [django.request:60] [36mGET /static/css/owl.theme.css - 200[0m
+[22/Aug/2019 19:12:25] INFO [django.request:60] [36mGET /static/css/font-awesome.min.css - 200[0m
+[22/Aug/2019 19:12:25] INFO [django.request:60] [36mGET /static/css/animate.css - 200[0m
+[22/Aug/2019 19:12:25] INFO [django.request:60] [36mGET /static/fonts/icon-7-stroke/css/pe-icon-7-stroke.css[0m
+[22/Aug/2019 19:12:25] INFO [django.request:60] [36mGET /static/css/owl.carousel.css[0m
+[22/Aug/2019 19:12:25] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/css,*/*;q=0.1', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/parent/main', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_IF_MODIFIED_SINCE': 'Thu, 22 Aug 2019 13:21:47 GMT', 'HTTP_CACHE_CONTROL': 'max-age=0'}[0m
+[22/Aug/2019 19:12:25] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/css,*/*;q=0.1', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/parent/main', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_IF_MODIFIED_SINCE': 'Thu, 22 Aug 2019 13:21:47 GMT', 'HTTP_CACHE_CONTROL': 'max-age=0'}[0m
+[22/Aug/2019 19:12:25] INFO [django.request:60] [36mGET /static/fonts/icon-7-stroke/css/pe-icon-7-stroke.css - 200[0m
+[22/Aug/2019 19:12:25] INFO [django.request:60] [36mGET /static/css/owl.carousel.css - 200[0m
+[22/Aug/2019 19:12:25] INFO [django.request:60] [36mGET /parent/%7B%20static%20'css/css-index.css'%20%25%7D[0m
+[22/Aug/2019 19:12:25] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/css,*/*;q=0.1', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/parent/main', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_CACHE_CONTROL': 'max-age=0'}[0m
+[22/Aug/2019 19:12:25] INFO [django.request:60] [36mGET /parent/%7B%20static%20'css/css-index.css'%20%25%7D - 200[0m
+[22/Aug/2019 19:12:33] INFO [django.request:60] [36mGET /account/login[0m
+[22/Aug/2019 19:12:33] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[22/Aug/2019 19:12:33] INFO [django.request:60] [36mGET /account/login - 200[0m
+[22/Aug/2019 19:12:34] INFO [django.request:60] [36mGET /static/fonts/icon-7-stroke/css/pe-icon-7-stroke.css[0m
+[22/Aug/2019 19:12:34] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/css,*/*;q=0.1', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd'}[0m
+[22/Aug/2019 19:12:34] INFO [django.request:60] [36mGET /static/fonts/icon-7-stroke/css/pe-icon-7-stroke.css - 200[0m
+[22/Aug/2019 19:12:34] INFO [django.request:60] [36mGET /account/%7B%20static%20'css/css-index.css'%20%25%7D[0m
+[22/Aug/2019 19:12:34] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/css,*/*;q=0.1', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd'}[0m
+[22/Aug/2019 19:12:34] INFO [django.request:60] [36mGET /account/%7B%20static%20'css/css-index.css'%20%25%7D - 200[0m
+[22/Aug/2019 19:12:34] INFO [django.request:60] [36mGET /static/css/owl.theme.css[0m
+[22/Aug/2019 19:12:34] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/css,*/*;q=0.1', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd'}[0m
+[22/Aug/2019 19:12:34] INFO [django.request:60] [36mGET /static/css/owl.theme.css - 200[0m
+[22/Aug/2019 19:12:34] INFO [django.request:60] [36mGET /static/css/animate.css[0m
+[22/Aug/2019 19:12:34] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/css,*/*;q=0.1', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd'}[0m
+[22/Aug/2019 19:12:34] INFO [django.request:60] [36mGET /static/css/animate.css - 200[0m
+[22/Aug/2019 19:12:34] INFO [django.request:60] [36mGET /static/css/owl.carousel.css[0m
+[22/Aug/2019 19:12:34] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/css,*/*;q=0.1', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/account/login', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd'}[0m
+[22/Aug/2019 19:12:34] INFO [django.request:60] [36mGET /static/css/owl.carousel.css - 200[0m
+[22/Aug/2019 23:20:41] INFO [django.request:60] [36mGET /[0m
+[22/Aug/2019 23:20:41] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:80', 'HTTP_X_NGINX_PROXY': 'true', 'HTTP_X_REAL_IP': '178.94.55.17', 'HTTP_X_FORWARDED_FOR': '178.94.55.17', 'HTTP_CONNECTION': 'close', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7'}[0m
+[22/Aug/2019 23:20:41] INFO [django.request:60] [36mGET / - 200[0m
+[23/Aug/2019 01:35:02] INFO [django.request:60] [36mGET /rasberrypy/imageUpload[0m
+[23/Aug/2019 01:35:02] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[23/Aug/2019 01:35:02] INFO [django.request:60] [36mGET /rasberrypy/imageUpload - 200[0m
+[23/Aug/2019 01:35:31] INFO [django.request:60] [36mPOST /rasberrypy/imageUpload[0m
+[23/Aug/2019 01:35:31] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/rasberrypy/imageUpload', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[23/Aug/2019 01:35:36] DEBUG [django.request:60] [36m(multipart/form)[0m
+[23/Aug/2019 01:35:36] INFO [django.request:228] OK: /rasberrypy/imageUpload
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/subway/baby/rasberrypy/views.py", line 127, in imageUpload
+    babyPicture.isReverse = beingReverse(settings.MEDIA_ROOT + "/" + babyPicture.realTitle)
+NameError: name 'settings' is not defined
+[23/Aug/2019 01:35:36] INFO [django.request:60] [36mPOST /rasberrypy/imageUpload - 200[0m
+[23/Aug/2019 01:38:47] INFO [django.request:60] [36mPOST /rasberrypy/imageUpload[0m
+[23/Aug/2019 01:38:47] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/rasberrypy/imageUpload', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[23/Aug/2019 01:38:49] DEBUG [django.request:60] [36m(multipart/form)[0m
+[23/Aug/2019 01:38:49] INFO [django.request:60] [36mPOST /rasberrypy/imageUpload - 200[0m
+[23/Aug/2019 01:41:27] INFO [django.request:60] [36mPOST /rasberrypy/imageUpload[0m
+[23/Aug/2019 01:41:27] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/rasberrypy/imageUpload', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[23/Aug/2019 01:41:31] DEBUG [django.request:60] [36m(multipart/form)[0m
+[23/Aug/2019 01:41:31] INFO [django.request:60] [36mPOST /rasberrypy/imageUpload - 200[0m
+[23/Aug/2019 01:43:59] INFO [django.request:60] [36mPOST /rasberrypy/imageUpload[0m
+[23/Aug/2019 01:43:59] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/rasberrypy/imageUpload', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[23/Aug/2019 01:44:01] DEBUG [django.request:60] [36m(multipart/form)[0m
+[23/Aug/2019 01:44:03] INFO [django.request:228] OK: /rasberrypy/imageUpload
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/subway/baby/rasberrypy/views.py", line 131, in imageUpload
+    user = User.objects.get(productionKey=product)
+  File "/usr/local/lib/python3.6/dist-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/django/db/models/query.py", line 390, in get
+    clone = self.filter(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/django/db/models/query.py", line 844, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/django/db/models/query.py", line 862, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python3.6/dist-packages/django/db/models/sql/query.py", line 1263, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/usr/local/lib/python3.6/dist-packages/django/db/models/sql/query.py", line 1287, in _add_q
+    split_subq=split_subq,
+  File "/usr/local/lib/python3.6/dist-packages/django/db/models/sql/query.py", line 1225, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/usr/local/lib/python3.6/dist-packages/django/db/models/sql/query.py", line 1096, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/usr/local/lib/python3.6/dist-packages/django/db/models/lookups.py", line 20, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/usr/local/lib/python3.6/dist-packages/django/db/models/lookups.py", line 70, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/usr/local/lib/python3.6/dist-packages/django/db/models/fields/__init__.py", line 1807, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'Product'
+[23/Aug/2019 01:44:03] INFO [django.request:60] [36mPOST /rasberrypy/imageUpload - 200[0m
+[23/Aug/2019 01:47:58] INFO [django.request:60] [36mPOST /rasberrypy/imageUpload[0m
+[23/Aug/2019 01:47:58] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/rasberrypy/imageUpload', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[23/Aug/2019 01:48:00] DEBUG [django.request:60] [36m(multipart/form)[0m
+[23/Aug/2019 01:48:02] INFO [django.request:228] OK: /rasberrypy/imageUpload
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/subway/baby/rasberrypy/views.py", line 132, in imageUpload
+    userToken = UserToken.objects.get(userId = user)
+  File "/usr/local/lib/python3.6/dist-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/django/db/models/query.py", line 390, in get
+    clone = self.filter(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/django/db/models/query.py", line 844, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/django/db/models/query.py", line 862, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python3.6/dist-packages/django/db/models/sql/query.py", line 1263, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/usr/local/lib/python3.6/dist-packages/django/db/models/sql/query.py", line 1287, in _add_q
+    split_subq=split_subq,
+  File "/usr/local/lib/python3.6/dist-packages/django/db/models/sql/query.py", line 1164, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/usr/local/lib/python3.6/dist-packages/django/db/models/sql/query.py", line 1028, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/usr/local/lib/python3.6/dist-packages/django/db/models/sql/query.py", line 1389, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'userId' into field. Choices are: id, token, user, user_id
+[23/Aug/2019 01:48:02] INFO [django.request:60] [36mPOST /rasberrypy/imageUpload - 200[0m
+[23/Aug/2019 01:50:30] INFO [django.request:60] [36mPOST /rasberrypy/imageUpload[0m
+[23/Aug/2019 01:50:30] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/rasberrypy/imageUpload', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[23/Aug/2019 01:50:32] DEBUG [django.request:60] [36m(multipart/form)[0m
+[23/Aug/2019 01:50:33] INFO [django.request:228] OK: /rasberrypy/imageUpload
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/subway/baby/rasberrypy/views.py", line 132, in imageUpload
+    userToken = UserToken.objects.get(userId = user.id)
+  File "/usr/local/lib/python3.6/dist-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/django/db/models/query.py", line 390, in get
+    clone = self.filter(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/django/db/models/query.py", line 844, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/django/db/models/query.py", line 862, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python3.6/dist-packages/django/db/models/sql/query.py", line 1263, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/usr/local/lib/python3.6/dist-packages/django/db/models/sql/query.py", line 1287, in _add_q
+    split_subq=split_subq,
+  File "/usr/local/lib/python3.6/dist-packages/django/db/models/sql/query.py", line 1164, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/usr/local/lib/python3.6/dist-packages/django/db/models/sql/query.py", line 1028, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/usr/local/lib/python3.6/dist-packages/django/db/models/sql/query.py", line 1389, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'userId' into field. Choices are: id, token, user, user_id
+[23/Aug/2019 01:50:33] INFO [django.request:60] [36mPOST /rasberrypy/imageUpload - 200[0m
+[23/Aug/2019 01:53:24] INFO [django.request:60] [36mPOST /rasberrypy/imageUpload[0m
+[23/Aug/2019 01:53:24] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/rasberrypy/imageUpload', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[23/Aug/2019 01:53:28] DEBUG [django.request:60] [36m(multipart/form)[0m
+[23/Aug/2019 01:53:29] INFO [django.request:228] OK: /rasberrypy/imageUpload
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/subway/baby/rasberrypy/views.py", line 134, in imageUpload
+    return JsonResponse(json.dumps(dic))
+  File "/usr/local/lib/python3.6/dist-packages/django/http/response.py", line 552, in __init__
+    'In order to allow non-dict objects to be serialized set the '
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+[23/Aug/2019 01:53:29] INFO [django.request:60] [36mPOST /rasberrypy/imageUpload - 200[0m
+[23/Aug/2019 01:56:09] INFO [django.request:60] [36mPOST /rasberrypy/imageUpload[0m
+[23/Aug/2019 01:56:09] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/rasberrypy/imageUpload', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[23/Aug/2019 01:56:12] DEBUG [django.request:60] [36m(multipart/form)[0m
+[23/Aug/2019 01:56:13] INFO [django.request:228] OK: /rasberrypy/imageUpload
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/subway/baby/rasberrypy/views.py", line 134, in imageUpload
+    return JsonResponse(json.dumps(dic))
+  File "/usr/local/lib/python3.6/dist-packages/django/http/response.py", line 552, in __init__
+    'In order to allow non-dict objects to be serialized set the '
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+[23/Aug/2019 01:56:13] INFO [django.request:60] [36mPOST /rasberrypy/imageUpload - 200[0m
+[23/Aug/2019 01:57:48] INFO [django.request:60] [36mPOST /rasberrypy/imageUpload[0m
+[23/Aug/2019 01:57:48] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/rasberrypy/imageUpload', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[23/Aug/2019 01:57:52] DEBUG [django.request:60] [36m(multipart/form)[0m
+[23/Aug/2019 01:57:53] INFO [django.request:60] [36mPOST /rasberrypy/imageUpload - 200[0m
+[23/Aug/2019 01:57:53] DEBUG [django.request:60] [36m{'content-type': ('Content-Type', 'application/json')}[0m
+[23/Aug/2019 01:57:53] DEBUG [django.request:60] [36mb'{"data": {"\\uc9c0\\uae08 \\ud070\\uc77c\\ub0ac\\uc5b4\\uc694": "\\uc560\\uae30 \\ub4a4\\uc9d1\\uc5b4\\uc84c\\uc5b4\\uc694"}, "token": "fZ_zfXdjtE0:APA91bH5cLLqjgU2_4ADW_SztOBDpfcn4ul3XEDWYPh5e6tr"}'[0m
+[23/Aug/2019 02:08:39] INFO [django.request:60] [36mPOST /rasberrypy/imageUpload[0m
+[23/Aug/2019 02:08:39] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/rasberrypy/imageUpload', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[23/Aug/2019 02:08:41] DEBUG [django.request:60] [36m(multipart/form)[0m
+[23/Aug/2019 02:08:42] INFO [django.request:60] [36mPOST /rasberrypy/imageUpload - 200[0m
+[23/Aug/2019 02:08:42] DEBUG [django.request:60] [36m{'content-type': ('Content-Type', 'application/json')}[0m
+[23/Aug/2019 02:08:42] DEBUG [django.request:60] [36mb'{"data": {"\\uc9c0\\uae08 \\ud070\\uc77c\\ub0ac\\uc5b4\\uc694": "\\uc560\\uae30 \\ub4a4\\uc9d1\\uc5b4\\uc84c\\uc5b4\\uc694"}, "token": "fZ_zfXdjtE0:APA91bH5cLLqjgU2_4ADW_SztOBDpfcn4ul3XEDWYPh5e6tr"}'[0m
+[23/Aug/2019 02:11:09] INFO [django.request:60] [36mPOST /rasberrypy/imageUpload[0m
+[23/Aug/2019 02:11:09] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/rasberrypy/imageUpload', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[23/Aug/2019 02:11:11] DEBUG [django.request:60] [36m(multipart/form)[0m
+[23/Aug/2019 02:11:12] INFO [django.request:228] OK: /rasberrypy/imageUpload
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/subway/baby/rasberrypy/views.py", line 138, in imageUpload
+    pirnt(requests.post("https://fcm.googleapis.com/fcm/send",data=json.dumps(dic),headers = headers))
+NameError: name 'pirnt' is not defined
+[23/Aug/2019 02:11:12] INFO [django.request:60] [36mPOST /rasberrypy/imageUpload - 200[0m
+[23/Aug/2019 02:12:41] INFO [django.request:60] [36mPOST /rasberrypy/imageUpload[0m
+[23/Aug/2019 02:12:41] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/rasberrypy/imageUpload', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[23/Aug/2019 02:12:43] DEBUG [django.request:60] [36m(multipart/form)[0m
+[23/Aug/2019 02:12:45] INFO [django.request:60] [36mPOST /rasberrypy/imageUpload - 200[0m
+[23/Aug/2019 02:12:45] DEBUG [django.request:60] [36m{'content-type': ('Content-Type', 'application/json')}[0m
+[23/Aug/2019 02:12:45] DEBUG [django.request:60] [36mb'{"data": {"\\uc9c0\\uae08 \\ud070\\uc77c\\ub0ac\\uc5b4\\uc694": "\\uc560\\uae30 \\ub4a4\\uc9d1\\uc5b4\\uc84c\\uc5b4\\uc694"}, "token": "fZ_zfXdjtE0:APA91bH5cLLqjgU2_4ADW_SztOBDpfcn4ul3XEDWYPh5e6tr"}'[0m
+[23/Aug/2019 02:14:39] INFO [django.request:60] [36mPOST /rasberrypy/imageUpload[0m
+[23/Aug/2019 02:14:39] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/rasberrypy/imageUpload', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[23/Aug/2019 02:14:42] DEBUG [django.request:60] [36m(multipart/form)[0m
+[23/Aug/2019 02:14:44] INFO [django.request:60] [36mPOST /rasberrypy/imageUpload - 200[0m
+[23/Aug/2019 02:14:44] DEBUG [django.request:60] [36m{'content-type': ('Content-Type', 'application/json')}[0m
+[23/Aug/2019 02:14:44] DEBUG [django.request:60] [36mb'{"data": {"\\uc9c0\\uae08 \\ud070\\uc77c\\ub0ac\\uc5b4\\uc694": "\\uc560\\uae30 \\ub4a4\\uc9d1\\uc5b4\\uc84c\\uc5b4\\uc694"}, "to": "fZ_zfXdjtE0:APA91bH5cLLqjgU2_4ADW_SztOBDpfcn4ul3XEDWYPh5e6tr", "priority": "high"}'[0m
+[23/Aug/2019 02:16:09] INFO [django.request:60] [36mPOST /rasberrypy/imageUpload[0m
+[23/Aug/2019 02:16:09] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/rasberrypy/imageUpload', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[23/Aug/2019 02:16:11] DEBUG [django.request:60] [36m(multipart/form)[0m
+[23/Aug/2019 02:16:12] INFO [django.request:60] [36mPOST /rasberrypy/imageUpload - 200[0m
+[23/Aug/2019 02:16:12] DEBUG [django.request:60] [36m{'content-type': ('Content-Type', 'application/json')}[0m
+[23/Aug/2019 02:16:12] DEBUG [django.request:60] [36mb'{"data": {"IsReverse": "Reverse"}, "to": "fZ_zfXdjtE0:APA91bH5cLLqjgU2_4ADW_SztOBDpfcn4ul3XEDWYPh5e6tr", "priority": "high"}'[0m
+[23/Aug/2019 02:17:57] INFO [django.request:60] [36mPOST /rasberrypy/imageUpload[0m
+[23/Aug/2019 02:17:57] DEBUG [django.request:60] [36m{'HTTP_HOST': '52.231.77.117:8000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_LANGUAGE': 'ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_REFERER': 'http://52.231.77.117:8000/rasberrypy/imageUpload', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'csrftoken=sMWkJoIohSreLaoABOb4KmaVX1OaUN6FJzzKb6rS3cjxQK4S9WX9D2MoZNtaW0Hr; sessionid=pve8kvhi3l8b120olhrmnfkfkfy3hfqd', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1'}[0m
+[23/Aug/2019 02:18:01] DEBUG [django.request:60] [36m(multipart/form)[0m
+[23/Aug/2019 02:18:02] INFO [django.request:60] [36mPOST /rasberrypy/imageUpload - 200[0m
+[23/Aug/2019 02:18:02] DEBUG [django.request:60] [36m{'content-type': ('Content-Type', 'application/json')}[0m
+[23/Aug/2019 02:18:02] DEBUG [django.request:60] [36mb'{"data": {"IsReverse": "Reverse"}, "to": "fZ_zfXdjtE0:APA91bH5cLLqjgU2_4ADW_SztOBDpfcn4ul3XEDWYPh5e6tr", "priority": "high"}'[0m

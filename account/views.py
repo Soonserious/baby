@@ -1,8 +1,13 @@
 from django.shortcuts import render, redirect
 from django.contrib.auth import login, authenticate
 from .forms import *
+import json
+from django.http import HttpResponse, HttpResponseForbidden, JsonResponse
 
-# Create your views here.
+
+def main(request):
+    return redirect("account/login")
+
 
 def main(request):
     return redirect("account/login")

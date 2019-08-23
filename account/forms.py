@@ -3,6 +3,8 @@ from django import forms
 from .models import User
 
 
+
+
 class CreateUserForm(UserCreationForm):
     productionKey = forms.IntegerField(required=True)
     productionKey.widget.attrs.update({'class' : 'form-control'})

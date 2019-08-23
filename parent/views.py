@@ -3,15 +3,32 @@ from rasberrypy.models import *
 from django.contrib.auth.decorators import login_required
 from .forms import *
 # Create your views here.
+from django.http import HttpResponse, HttpResponseForbidden, JsonResponse
 
-@login_required
+# Create your views here.
+
+def createToken(request):
+    if request.method == "GET":
+        return render(request,'parent/createToken.html',{
+            'createToken' : CreateToken(),
+        })
+    else:
+        createToken = CreateToken(request.POST)
+        try:
+            prev = CreateToken.objects.get(userId=request.session["userId"])
+            prev.token = createToken.cleaned_data["token"]
+            prev.save()
+        except:
+            current = CreateUserForm.save(commit=False)
+            current.save()
+        return JsonResponse({"result" : 1})
+
 def main(request):
     if request.session["userId"]:
         user = User.objects.get(userId=request.session["userId"])
-        picture = BabyPicture.objects.get(id = 9)
-        # picture = BabyPicture.objects.filter(productionKey = 1,).order_by("-createTime",)
-        # if len(picture):
-        #     picture = picture[0]
+        picture = BabyPicture.objects.filter(productionKey = user.productionKey,).order_by("-createTime",)
+        if len(picture):
+            picture = picture[0]
         babyStatus = BabySick.objects.filter(productionKey = user.productionKey).order_by("-createTime",)
         if len(babyStatus) :
             babyStatus = babyStatus[0]
@@ -22,7 +39,6 @@ def main(request):
     else:
         return redirect("/account/login")
 
-@login_required
 def setConfigure(request):
     user = User.objects.get(userId=request.session["userId"])
     if request.method == "POST":
@@ -33,7 +49,9 @@ def setConfigure(request):
         return redirect("main")
     else:
         product = Product.objects.get(id=user.productionKey)
-        productionConfigure = ProductionConfigure(product)
-        return render("parent/productionConfigure",
-                      {"configure" : productionConfigure})
+        productionConfigure = ProductionConfigure()
+        productionConfigure.timeConfigure = product.timeConfigure
+        productionConfigure.mode = product.mode
+        return render(request,"parent/productionConfigure.html",
+                      {"productionConfigure" : productionConfigure})
 

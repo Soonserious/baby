@@ -10,6 +10,9 @@ import json
 from django.views.decorators.http import require_POST
 from django.views.decorators.csrf import csrf_exempt
 from django.http import HttpResponse, HttpResponseForbidden, JsonResponse
+from parent.models import UserToken
+from babysecurity import settings
+import requests
 logger = logging.getLogger(__name__)
 
 def frame2_happy(point):
@@ -36,7 +39,7 @@ def beingReverse(filePath):
                       ["Neck", "RHip"], ["RHip", "RKnee"], ["RKnee", "RAnkle"], ["Neck", "LHip"],
                       ["LHip", "LKnee"], ["LKnee", "LAnkle"], ["Neck", "Nose"], ["Nose", "REye"],
                       ["REye", "REar"], ["Nose", "LEye"], ["LEye", "LEar"]]
-        net = cv.dnn.readNetFromTensorflow("D:/babySecurity/graph_opt.pb")
+        net = cv.dnn.readNetFromTensorflow("./graph_opt.pb")
         img = cv.imread(filePath, cv.IMREAD_ANYCOLOR)
         net.setInput(cv.dnn.blobFromImage(img, 1.0, (368, 368), (127.5, 127.5, 127.5), swapRB=True, crop=False))
         out = net.forward()
@@ -62,11 +65,9 @@ def beingReverse(filePath):
             hp = [ap, bp, cp, dp, ep];
         result = 0
         result = frame3_hp(hp)
-        print(result)
         return result
     except Exception as ex:
         print(ex)
-
 
 def createProduction(request):
     if request.method == "POST":
@@ -125,6 +126,17 @@ def imageUpload(request):
             babyPicture.save()
             babyPicture.isReverse = beingReverse(settings.MEDIA_ROOT + "/" + babyPicture.realTitle)
             babyPicture.save()
+            if babyPicture.isReverse:
+                user = User.objects.get(productionKey=product.id)
+                userToken = UserToken.objects.get(user = user )
+                 
+                headers = {"Authorization" : "key=AAAARenGXtY:APA91bGHctGwh5AmR7kJ6hVr0a-boD_BJoKhlHfjkswIeEJyJ91Kdp6iv3SLReRFIuRH26hUrhhM_eM8So8MGU0OLzH4jER_h5QQ8dhRCw0VeK0hv7y_HmDIxlJjZGuZpVVMcyFvqWwu",
+                           "Content-Type" : "application/json"}
+
+
+                dic = {"data" : {"IsReverse" : "Reverse"},"to": userToken.token,"priority":"high"}
+                requests.post("https://fcm.googleapis.com/fcm/send",data=json.dumps(dic),headers = headers)
+                return JsonResponse(dic)
         return render(request, "rasberrypy/uploadImage.html", {
             "babyPictureForm": BabyPictureForm()
         })

@@ -38,9 +38,9 @@ with open(BASE_DIR+"/setup/media_setting","r") as f:
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = dbSetupList[6]
-
+LOGIN_URL = "/accounts/login"
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["*"]
 
@@ -49,8 +49,8 @@ MEDIA_ROOT = mediaSetupList[0]
 # Application definition
 STATIC_URL = "/static/"
 STATICFILES_DIRS = (os.path.join(BASE_DIR,'static'),)
-
-
+STATIC_ROOT = "/home/subway/static/"
+LOGIN_REDIRECT_URL = '/parent/main'
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -197,4 +197,3 @@ AUTH_USER_MODEL="account.User"
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
-STATIC_URL = '/static/'

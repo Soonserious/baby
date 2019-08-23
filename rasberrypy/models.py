@@ -1,5 +1,4 @@
 from django.db import models
-from django.conf import settings
 import secrets
 import hashlib
 from django.urls import reverse
@@ -21,7 +20,11 @@ def renamingImage(instance,filename):
 class Product(models.Model):
     authentication = models.CharField(max_length=50,unique=True,null=False)
     createTime = models.DateTimeField(auto_now=True)
+    timeConfigure = models.IntegerField(default=30,null=False)
+    mode = models.BooleanField(default=False)
     isActive = models.BooleanField(default=False)
+
+
 
 class BabyPicture(models.Model):
     productionKey = models.ForeignKey(Product,on_delete=models.CASCADE)
@@ -60,3 +63,4 @@ class Stream(models.Model):
 def createStreamForProduct(sender, instance=None, created=False, **kwargs):
     if created:
         Stream.object.create(productKey=instance)
+
